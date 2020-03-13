@@ -3,6 +3,7 @@ import queue
 import threading
 import time
 import sys
+# 这一行是因为部署在服务器上是因为环境问题出现了某.so库引用问题，所以会加上这一行
 # sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 
 import cv2
